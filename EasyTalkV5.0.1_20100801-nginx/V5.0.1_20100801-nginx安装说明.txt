@@ -1,0 +1,23 @@
+EasyTalk V5.0.1_20100801 安装说明
+
+================================================
+很感谢大家使用EasyTalk微博建站程序,
+
+
+服务器支持：
+1，此版本需要您的服务器支持伪静态并支持zip库
+2，请确保您的php 5.0以上，mysql 5.0以上
+3，php中将output_buffering设为'on'
+
+安装说明：
+1，在浏览器运行 http://您的域名/install/install.php 执行安装
+2，配置服务器的伪静态 apache/nginx/iis
+
+beta3以及内测用户升级说明：
+1，执行updateto5.php
+2，删除updateto5.php文件！
+3，更新模板缓存
+
+个人用户请勿私自修改版权
+更多问题请访问:http://bbs.9italk.com
+短信，QQ更新微博插件请联系QQ：290615101

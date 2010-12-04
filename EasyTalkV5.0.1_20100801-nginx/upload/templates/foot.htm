@@ -1,0 +1,11 @@
+<a id="feedbackbutton" href="{$webaddr}/op/feedback"></a>
+<a id="reportbutton" href="javascript:void(0)" onclick="reportbox()"></a>
+<div id="footer">
+<a href="{$webaddr}/op/faq">新手帮助</a> | <a href="{$webaddr}/wap/index.php">手机WAP</a> | <a href="{$webaddr}/op/contact">联系我们</a><!--{if ($my[isadmin]==1)}--> | <a href="{$webaddr}/admin/index.php" target="_blank">进入管理</a><!--{/if}--><br/>
+<span title="Processed in {$loadtime} second(s), {$sqlnum} queries.">&copy; 2007-2010 <a href="{$webaddr}">{$webn1}</a></span>&nbsp;Powered  by <a href="http://www.9italk.com" target="_blank">EasyTalk</a>{$version} <a href="http://www.miibeian.gov.cn" target="_blank">{$webm}</a>
+</div>
+</div>
+<!--{if ($p2)}--><div class="ads2"><!--{loop $p2 $key $val}--><div style="margin-top:5px">{echo base64_decode($val)}</div><!--{/loop}--></div><!--{/if}-->
+<div class="gotop"><button onclick="location.href='#'" title="返回顶部"><span>返回顶部</span></button></div>
+</body>
+</html>
