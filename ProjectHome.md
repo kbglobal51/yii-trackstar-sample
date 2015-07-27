@@ -1,0 +1,1 @@
+for yii 1.1.4 sample code
